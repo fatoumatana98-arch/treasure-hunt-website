@@ -1,0 +1,73 @@
+/* =============================
+   Treasure Hunt Journey Styles
+   ============================= */
+
+/*  ---- General Page Setupt ---- */
+
+body {
+       background-color: #f5f2e7;                           /* light parchment color */
+       font-family: "Trebuchet MS", Arial, sna-serif;
+       color: #2e2e2e;                                      /* soft drak gray text */
+       text-align: center;
+       margin: 40px;
+       line-height: 1.7;
+    }
+
+/*  ---- Headings ---- */
+
+h1, h2 {
+         color: #704214;                           /* deep brown, treasure-map tone */
+         text-shadow: 1px 1px 2px #c9a66b;         /* soft golden shadow for depth */
+       }
+
+h3, h4 {
+         color: #333;
+         text-decoration: underline;
+       }
+
+/*  ---- Paragraphs ---- */
+
+p {
+    font-size: 18px;
+    max-width: 700px;
+    margin-align: justify;            /* cleaner text alignment */
+  }
+
+/*  ---- Image Styles ---- */
+
+.smallImage {
+              width: 250px;                          /* balaced image size */
+              height: auto;
+              border-radius: 12px;
+              border: 3px solid #bfa980;             /* light gold border */
+              box-shadow: 4px 4px 10px rgba(0,0,0,0,0.3);
+              margin: 20px auto;
+              display: block;
+            }
+
+/*  ---- Links as Buttons ---- */
+
+a {
+    display: inline-block;
+    color: #fff;
+    background-color: #704214;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+a:hover {
+          background-color: #c9a66b;            /* golden hover effect */  
+          color: #000;                 
+        }
+
+/*  ---- Footer/Sources ---- */
+
+h4 {
+     margin-top: 30px;
+     font-size: 18px;
+   }
